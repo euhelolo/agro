@@ -1,0 +1,179 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    background-color: #48a4b4;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem {
+    width: 10%;
+}
+
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-lista-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.escola-imagem {
+    width: 25%;
+}
+
+#escola {
+    background-image: linear-gradient(#48a4b4, #defa61);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo {
+    width: 35%;
+}
+
+
+.escola-titulo {
+    padding: 24px 0;
+}
+
+#estudante {
+    padding: 24px 0;
+}
+
+
+.estudante-imagem {
+    width: 120px;
+}
+
+.estudante-icone {
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.estudante-div {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.estudante-titulo {
+    text-align: center;
+    padding: 24px 0;
+    background-color: #ffffff;
+}
+
+.estudante-todos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #defa61;
+}
+
+.rodape {
+    background-color: rgb(87, 140, 255);
+    text-align: center;
+}
+
+.rodape-imagem {
+    height: 60px;
+    padding: 12px 0;
+
+}
+
+.projetotitulo {
+    text-align: center;
+    padding: 24px 0;
+    background-color: #ffffff;
+}
+
+.todosprojetos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: linear-gradient(#defa61, #ffe359);
+}
+
+.projetoimagem1 {
+    width: 215px;
+}
+
+.galery {
+    margin: auto;
+    width: 320px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 19.9%;
+
+}
+
+.main {
+
+
+    background-color: #defa61;
+}
+
+.teclado
+{background-color: beige;
+display: grid;
+gap: 10px;
+grid-template-columns: repeat(3,1fr);
+padding: 10px;
+
+}
+
+.tecla {
+
+
+    background-color:#48a4b4 ;
+    color: #defa61; 
+    padding: 30px;
+}
+
+.tecla.active{
+
+background-color: azure;
+color: aquamarine;
+outline: none;
+
+}
+
+.tecla.focus {
+
+    outline: none;
+box-shadow: 1px 1px 10px #ffe359;
+
+
+}
+
+
+.tecla.active:focus {
+
+    box-shadow:3px 3px 0 #FF0000;
+}
