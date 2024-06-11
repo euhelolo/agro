@@ -47,8 +47,8 @@ body {
 
 .escola2{
     
-    background-color: linear-gradient(#defa61, #48a4b4);
-    color: white;
+
+    color: linear-gradient(#defa61, #48a4b4);
     display: flex;
     justify-content: center;
     align-items: center;
