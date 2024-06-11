@@ -44,13 +44,7 @@ body {
     align-items: center;
     padding: 24px 0;
 }
- #escola2{background-image: linear-gradient(#defa61, #48a4b4;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-} 
+
 .escola-div-conteudo {
     width: 35%;
 }
