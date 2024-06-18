@@ -184,4 +184,9 @@ box-shadow: 1px 1px 10px #ffe359;
 }
 .agrinhoconteudo{
     background-image: linear-gradient(#defa61, #81d8fa);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
