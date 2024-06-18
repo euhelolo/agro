@@ -190,3 +190,10 @@ box-shadow: 1px 1px 10px #ffe359;
     align-items: center;
    
 }
+.escola-texto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
