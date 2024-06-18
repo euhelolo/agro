@@ -180,4 +180,5 @@ box-shadow: 1px 1px 10px #ffe359;
 .campoimg{
 
     width: 300%;
+    background-image: linear-gradient(#48a4b4, #defa61);
 }
