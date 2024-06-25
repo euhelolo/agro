@@ -44,6 +44,15 @@ body {
     align-items: center;
     padding: 24px 0;
 }
+#projeto{
+    background-image: linear-gradient( #81d8fa,#defa61,);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
 
 .escola-div-conteudo {
     width: 35%;
