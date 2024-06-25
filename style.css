@@ -200,3 +200,10 @@ box-shadow: 1px 1px 10px #ffe359;
 .agrinho1{
     padding: 24px 0;
 }
+.texto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
