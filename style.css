@@ -205,5 +205,5 @@ box-shadow: 1px 1px 10px #ffe359;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
+    width: 35%;
 }
